@@ -8,11 +8,8 @@ h1{
   line-height:2em;
 }
 #absimg{
-  /*I learned it from following site:
-  https://stackoverflow.com/questions/11856150/css-to-center-a-image-horizontally*/
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
+  max-width: 100%;
+  height: auto;
 }
 #abstract{
   background-color:grey;
