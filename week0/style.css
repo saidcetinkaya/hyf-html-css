@@ -1,0 +1,125 @@
+body{
+  margin:0px 100px 0px 100px;
+}
+h1{
+  background-color:black;
+  color:white;
+  text-align:center;
+  line-height:2em;
+}
+#absimg{
+  /*I learned it from following site:
+  https://stackoverflow.com/questions/11856150/css-to-center-a-image-horizontally*/
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+#abstract{
+  background-color:grey;
+}
+.content{
+  width: 200px;
+  float: left;
+  background-color: grey;
+  color:white;
+  padding-left:10px;
+}
+.contentheading{
+  background-color:transparent;
+  text-align:left;
+}
+#divabstract{
+  margin-left:300px;
+}
+.article{
+  text-align: justify;
+}
+h2{
+  text-align:center;
+  background-color:grey;
+  color:white;
+  line-height:2em;
+  clear:both;
+}
+.otherimage{
+  width:200px;
+  float: right;
+  margin-left:10px;
+  padding:5px;
+}
+#Down{
+  text-align:center;
+  width:50px;
+  position:fixed;
+  color:white;
+  background-color:black;
+  top:20px;
+  right:10px;
+}
+#Top{
+  text-align:center;
+  width:50px;
+  position:fixed;
+  color:white;
+  background-color:black;
+  bottom:20px;
+  right:10px;
+}
+a{
+  color:white;
+}
+p:hover {
+  background-color:grey;
+  color:white;
+}
+table{
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+}
+th, td{
+  border:1px solid black;
+  width:110px;
+  line-height:1.3em;
+}
+tr#Male{
+  background-color:rgb(79,155,177);
+}
+tr#Female{
+  background-color:salmon;
+}
+tr#theading{
+  background-color:rgb(82,193,140);
+}
+.cattery{
+  width:200px;
+  float: left;
+  margin-right:10px;
+  padding:5px;
+}
+.female{
+  clear:both;
+}
+p.article.male:hover {
+  background-color:rgb(79,155,177);
+}
+p.article.femalep:hover {
+  background-color:salmon;
+}
+.trademark{
+  clear:both;
+}
+#trademark, div#trademark p:hover{
+  background-color:black;
+  color:white;
+  line-height:3em;
+  text-align:center;
+}
+.socialmedia{
+  float:right;
+  margin-right:6px;
+  margin-top:4px;
+}
+tr:nth-child(2) td:nth-child(2){
+  background-color:red;
+}
