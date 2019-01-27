@@ -12,7 +12,7 @@
       <h2>Said CETINKAYA</h2>
       <p>Here you can find my application assignment</p>
       <a href="https://saidcetinkaya.github.io/hyf-html-css/week0/" rel="nofollow">https://saidcetinkaya.github.io/hyf-html-css/week0/</a><br>
-      <a href="https://saidcetinkaya.github.io/hyf-html-css/week0/" rel="nofollow">https://saidcetinkaya.github.io/hyf-html-css/week0/</a>
+      <a href="https://saidcetinkaya.github.io/hyf-html-css/week1/" rel="nofollow">https://saidcetinkaya.github.io/hyf-html-css/week1/</a>
     </div>
   </body>
 </html>
