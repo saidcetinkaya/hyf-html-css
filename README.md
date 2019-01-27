@@ -8,8 +8,7 @@
       <img src='https://raw.githubusercontent.com/saidcetinkaya/hyf-html-css/master/week1/Photos/deadpool_PNG83.png' width=240px alt='Photo'>
     </div>
     <div>
-      <h1>hyf-html-css</h1>
-      <h2>HTML/CSS</h2>
+      <h1>HTML/CSS</h1>
       <h2>Said CETINKAYA</h2>
       <p>Here you can find my application assignment</p>
       <a href="https://saidcetinkaya.github.io/hyf-html-css/week0/" rel="nofollow">https://saidcetinkaya.github.io/hyf-html-css/week0/</a><br>
