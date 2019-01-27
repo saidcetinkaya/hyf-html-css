@@ -6,4 +6,5 @@ HTML/CSS
 
 Here you can find my application assignmnet
 
-- https://saidcetinkaya.github.io/hyf-html-css/week0/index.html
+- <a href="https://saidcetinkaya.github.io/hyf-html-css/week0/" rel="nofollow">https://saidcetinkaya.github.io/hyf-html-css/week0/</a>
+- <a href="https://saidcetinkaya.github.io/hyf-html-css/week0/" rel="nofollow">https://saidcetinkaya.github.io/hyf-html-css/week0/</a>
