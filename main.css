@@ -1,11 +1,11 @@
 body{
-margin: 0px 100px 0px 100px;
+margin: 0px 100px 0px 100px !important;
 }
 img{
-display:block;
-margin:0 auto;
+display:block !important;
+margin:0 auto !important;
 }
 a{
-color: red;
-bakground-color: red;
+color: red !important;
+bakground-color: red !important;
 }
