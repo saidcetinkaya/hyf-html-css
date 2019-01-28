@@ -1,11 +1,9 @@
-body{
-margin: 0px 100px 0px 100px !important;
-}
-img{
+
+.imggg{
 display:block !important;
 margin:0 auto !important;
 }
-a{
+.aaa{
 color: red !important;
 bakground-color: red !important;
 }
