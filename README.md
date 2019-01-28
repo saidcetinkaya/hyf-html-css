@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-      <link rel="stylesheet" href="main.css">
   </head>
   <body>
     <div class='imgg'>
