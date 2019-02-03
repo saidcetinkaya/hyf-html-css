@@ -1,0 +1,163 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Flex Box</title>
+<style> 
+body{
+  width: 550px;
+  font-family: Proxima Nova;
+  font-size: 15px;
+}
+h1 {
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    color:#e74c3c;
+    font-size: 30px;
+
+}
+img{
+    margin-bottom: 20px;
+} 
+h2 {
+    margin: 10px;
+    padding-top: 10px;
+    color: #2ecc71;
+    padding-bottom: 5px;
+}  
+p {
+    margin: 10px;
+    padding-top: 10px;
+}
+button {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#flex-container {
+    height: 600px;
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px dashed rgb(148, 148, 148);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+#flex-container > div:nth-child(odd) {
+    min-height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+#flex-container > div:nth-child(even) {
+    min-height: 100px;
+    width: 125px;
+    margin: 20px;
+}
+button {
+    width: 110px;
+    height: 30px;
+    color: white;
+    background-color: deepskyblue;
+    margin: 0 10px;
+    border: 0;
+    border-radius: 5px;
+    padding: 1px;
+    cursor: pointer;
+}
+
+button:hover {
+    filter: brightness(85%);
+}
+
+.button {
+    height: 80px;
+    margin: 10px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-evenly;
+}
+.note {
+    background-color: rgb(255, 176, 170);
+    border-radius: 10px;
+    padding: 15px; 
+    width: 480px;
+    height: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;  
+}
+li {
+    padding-bottom: 10px;
+    color: #e74c3c;
+}
+ul {
+    list-style-type: square;
+}
+li span {
+    color: black;
+}
+</style>      
+</head>
+<body>
+    <h1> Align-content property of the flexbox</h1>
+    <img src="https://mdn.mozillademos.org/files/15631/align5.png" width=540px alt="Align content axis">
+    <p>
+        The align-content property is a sub-property of the <em>Flexible Box</em> Layout module.
+    </p>
+    <p>
+        It helps aligning a flex container's lines within it when there is extra space in the cross-axis, similar to how justify-content aligns individual items within the main-axis.
+    </p>
+    <p class="note">
+        <strong>Note!</strong> This property has no effect when the flexbox has only a single line.
+    </p>
+    <h2>
+        Different values:
+    </h2>
+    <ul>
+        <li>
+            <span><strong>flex-start</strong>: lines packed to the start of the container</span>
+        </li>
+        <li>
+            <span><strong>flex-end</strong>: lines packed to the end of the container</span>
+        </li>
+        <li>
+            <span><strong>center</strong>: lines packed to the center of the container </span>
+        </li>
+        <li>
+            <span><strong>space-between</strong>: lines evenly distributed; the first line is at the start of the container while the last one is at the end</span>
+        </li>
+        <li>
+            <span><strong>space-around</strong>: lines evenly distributed with equal space between them</span>
+        <li>
+            <span><strong>stretch</strong>: lines stretch to take up the remaining space</span>
+        </li>
+        <li>
+            <span><strong>space-evenly</strong>: lines evenly distributed with equal space between lines and edges</span>
+        </li>
+    </ul>
+    <h2>
+        Demonstration:
+    </h2>
+    <div class="button">
+        <div><button onClick="document.getElementById('flex-container').style.alignContent='flex-start';">flex-start</button></div>
+        <div><button onClick="document.getElementById('flex-container').style.alignContent='flex-end';">flex-end</button></div>
+        <div><button onClick="document.getElementById('flex-container').style.alignContent='center';">center</button></div>
+        <div><button onClick="document.getElementById('flex-container').style.alignContent='space-between';">space-between</button></div>
+        <div><button onClick="document.getElementById('flex-container').style.alignContent='space-around';">space-around</button></div>
+        <div><button onClick="document.getElementById('flex-container').style.alignContent='stretch';">stretch</button></div>
+        <div><button onClick="document.getElementById('flex-container').style.alignContent='space-evenly';">space-evenly</button></div>
+    </div>
+    <div id="flex-container">
+        <div style="background-color:#E70000;"></div>
+        <div style="background-color:#FF8C00;"></div>
+        <div style="background-color:#FFEF00;"></div>
+        <div style="background-color:#00811F;"></div>
+        <div style="background-color:#0044FF;"></div>
+        <div style="background-color:#760089;"></div>
+        <div style="background-color:#E70000;"></div>
+    </div>
+</body>
+</html>
