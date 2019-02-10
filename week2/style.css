@@ -29,13 +29,25 @@ li:nth-child(2) p{
 li:first-child{
     width: calc(100% - 20px);
     height: 535px;
-    background-color: white;
-    animation-name: trial;
+    animation-name: rainbow;
     animation-duration: 20s;
 }
-@keyframes trial {
+li:first-child img{
+    background-color: white;
+    position: relative;
+    animation-name: fly;
+    animation-duration: 20s;
+}
+@keyframes fly {
+    0%   {left:0px; top:0px;}
+    25%  {left:0px; top:200px;}
+    50%  {left:0px; top:0px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+}
+@keyframes rainbow {
     from {background-color: red;}
-    to {background-color: violet;}
+    to {background-color: yellow;}
 }
 #grid-floats li{
     float:left;
