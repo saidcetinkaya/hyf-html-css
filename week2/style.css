@@ -4,16 +4,13 @@
 body{
     width:599px;
 }
-main{
-    margin-right: 40px;
-}
 section{
     clear: both;
 }
 img {
     width:100%;
 }
-h1{
+h1, h2 {
     text-align: center;
 }
 ul {
@@ -32,6 +29,13 @@ li:nth-child(2) p{
 li:first-child{
     width: calc(100% - 20px);
     height: 535px;
+    background-color: white;
+    animation-name: trial;
+    animation-duration: 20s;
+}
+@keyframes trial {
+    from {background-color: red;}
+    to {background-color: violet;}
 }
 #grid-floats li{
     float:left;
