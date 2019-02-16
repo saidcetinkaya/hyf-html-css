@@ -1,0 +1,265 @@
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+    margin: 0px;
+    font-family: "RO Sans",Calibri,sans-serif;
+    font-size: 19px;
+}
+header div{
+    width: 100px;
+    height: 128px;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+}
+header div img{
+    vertical-align: middle;
+    width: 325px;
+}
+.menu-bar{
+    background-color: #01689b;
+    color:white;
+    min-height: 70px;
+    display: block;
+    padding-top: 20px;
+    width: 100%
+}
+.menu-bar div p{
+    float:left;
+    width:70px;
+    font-size: 21px;
+    padding-left: 20px;
+}
+.menu-bar div ul{
+    float:right;
+    display: flex;
+}
+.menu-bar div ul li{
+    margin-right:30px;
+}
+.buttona img, .buttona input{
+    clear:left;
+    float:right;
+    position:absolute;
+    top: 220px;
+    right: 30px;
+    height: 48px;
+}
+.buttona input{
+    right: 78px;
+    width: 28%;
+}
+.buttona img{
+    width:48px;
+}
+section.contenta{
+    height:350px;
+    background-image: url("https://www.rijksoverheid.nl/binaries/large/content/gallery/rijksoverheid/attentie-afbeeldingen/onderwerpen/m/minimumloon/minimumloon-winkel.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.contenta h3{
+    padding: 10px 0px 10px 10px;
+    font-size: 30px;
+    font-weight: 100;
+}
+.lista {
+    background-color: white;
+    float: left;
+    position:absolute;
+    top: 220px;
+    left: 30px;
+    width: 40%;
+    padding: 10px;
+}
+.lista ul li{
+    list-style-type: disc;
+    line-height: 1.625rem;
+    font-weight: bold;
+    color: #01689b;
+}
+.contentb{
+    background: #f3f3f3;
+}
+.contentb div ul{
+    display: flex;
+    flex-flow: row wrap;
+}
+.contentb div ul a {
+    margin: 40px 0px;
+    margin-right: 20px;
+    width: calc(25% - 20px);
+}
+.contentb div ul {
+    padding-left: 10px;
+}
+.contentb div ul a li h3{
+    color: #01689b;
+    font-size: 30px;
+}
+.contentb::after{
+    display:block;
+    content:" ";
+    position:relative;
+    width:100%;
+    height:30px;
+}
+.contentc::before{
+    display:block;
+    content:" ";
+    position:relative;
+    width:100%;
+    height:65px;
+    border-bottom: 1px solid rgb(218, 218, 218);
+}
+.contentc{
+    background-color: white;
+}
+.contentc div ul{
+    display: flex;
+    flex-flow: row wrap;
+}
+.contentc div ul a {
+    margin: 20px 0px;
+    margin-right: 20px;
+    width: calc(33% - 20px);
+}
+.contentc div ul {
+    padding-left: 10px;
+}
+.contentc div ul a li img{
+    width:100%;
+}
+.contentc div ul a li h3{
+    color: #01689b;
+    font-size:30px;
+}
+.contentc::after{
+    display:block;
+    content:" ";
+    position:relative;
+    width:100%;
+    height:40px;
+}
+.contentd::before{
+    display:block;
+    content:" ";
+    position:relative;
+    width:100%;
+    height:45px;
+    border-bottom: 1px solid rgb(218, 218, 218);
+    
+}
+.contentd{
+    background-color: white;
+}
+.contentd div ul{
+    display: flex;
+    flex-flow: row wrap;
+}
+.contentd div ul a {
+    margin: 20px 0px;
+    margin-right: 20px;
+    width: calc(100% / 3 - 20px);
+}
+.contentd div ul {
+    padding-left: 10px;
+}
+.contentdh3{
+    margin: 10px;
+    font-size: 30px;
+}
+.contentd div ul a li h3{
+    color: #01689b;
+    font-size:30px;
+}
+.contentd::after{
+    display:block;
+    content:" ";
+    position:relative;
+    width:100%;
+    height:40px;
+}
+.daytime{
+    font-weight: bold;
+    margin: 10px 0px;
+}
+.meernieuws li{
+    padding-left: 30px;
+}
+.contente {
+    background-color: white;
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+}
+.svg1{
+    border: 2px solid rgb(199, 227, 231);
+}
+.svg1, .svg2 {
+    margin: 20px 10px;
+    margin-right: 20px;
+    width: calc(100% / 3 - 20px);
+}
+.contente::after {
+    display:block;
+    content:" ";
+    position:relative;
+    width:100%;
+    height:80px;
+}
+.footera{
+    background-color: #01689b;
+    display: flex;
+    flex-flow: row wrap;
+    height: 350px;
+}
+.footera div{
+    margin: 50px 20px 0px 20px;
+}
+.bull em{
+    color:white;
+    font-size:28px;
+}
+.bull{
+    width:calc(50% - 40px);
+}
+.service{
+    width:calc(25% - 40px);
+}
+.column{
+    width:calc(25% - 40px);
+}
+.service h2, .service ul li a, .column h2, .column ul li a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.service ul, .column ul {
+    padding-inline-start: 0px;
+    margin-top:20px;
+}
+.service ul li a, .column ul li a{
+    font-size:15px;
+}
+.footerb div ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.footerb div ul li{
+    margin: 30px 10px;
+    padding: 5px;
+}
+.footerb div ul li a{
+    text-decoration: none;
+}
+.footerb div ul li:nth-child(n+2) {
+    border: 1px solid rgb(199, 227, 231);
+}
+.footerb div ul li:first-child {
+    font-weight: bold;
+}
