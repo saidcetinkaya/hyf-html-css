@@ -52,6 +52,11 @@ header div img{
 .buttona img{
     width:48px;
 }
+nav *{
+    width: 0%;
+    height: 0%;
+    font-size: 0px;
+}
 section.contenta{
     height:350px;
     background-image: url("https://www.rijksoverheid.nl/binaries/large/content/gallery/rijksoverheid/attentie-afbeeldingen/onderwerpen/m/minimumloon/minimumloon-winkel.jpg");
