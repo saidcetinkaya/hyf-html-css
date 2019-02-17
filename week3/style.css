@@ -199,9 +199,8 @@ section.contenta{
     border: 2px solid rgb(199, 227, 231);
 }
 .svg1, .svg2 {
-    margin: 20px 10px;
-    margin-right: 20px;
-    width: calc(100% / 3 - 20px);
+    margin: 20px 20px;
+    width: calc(100% / 3 - 40px);
 }
 .contente::after {
     display:block;
@@ -245,13 +244,20 @@ section.contenta{
 .service ul li a, .column ul li a{
     font-size:15px;
 }
+.footerb::before{
+    display:block;
+    content:" ";
+    position:relative;
+    width:100%;
+    height:20px;
+}
 .footerb div ul{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 }
 .footerb div ul li{
-    margin: 30px 10px;
+    margin: 5px 10px;
     padding: 5px;
 }
 .footerb div ul li a{
@@ -262,4 +268,77 @@ section.contenta{
 }
 .footerb div ul li:first-child {
     font-weight: bold;
+}
+.footerb::after{
+    display:block;
+    content:" ";
+    position:relative;
+    width:100%;
+    height:20px;
+}
+@media (max-width: 990px){
+    .contentb div ul a{
+        width: calc(50% - 20px);
+    }
+    .contentc div ul a{
+        width: calc(50% - 20px);
+    }
+    .contentc::after{
+        height: 0px;
+    }
+    .contentd div ul a{
+        width: calc(50% - 40px);
+    }
+    .svg1, .svg2{
+        width: calc(50% - 40px);
+    }
+}
+@media (max-width: 768px){
+    header{
+        height: 80px;
+    }
+    header div img{
+        width: 200px;
+    }
+    .menu-bar {
+        min-height: 120px;
+    }
+    .menu-bar div p{
+        padding-left: 30px;
+    }
+    .menu-bar div ul{
+        float: none;
+        width: 0%;
+    }
+    .menu-bar div ul li{
+        font-size: 0px;
+    }
+    .buttona input{
+        float:left;
+        position:absolute;
+        top: 140px;
+        left: 30px;
+        width: calc(90% - 48px)
+    }
+    .buttona img{
+        float:left;
+        position:absolute;
+        top: 140px;
+        left: calc(90% - 18px);
+    }
+    .lista{
+        width: 90%;
+        top: 300px;
+    }
+    .contentb div ul a{
+        width: calc(100% - 20px);
+    }
+    .bull{
+        width:calc(100% - 40px);
+    }
+    .service, .column{
+        width:calc(50% - 40px);
+    }
+    
+    
 }
