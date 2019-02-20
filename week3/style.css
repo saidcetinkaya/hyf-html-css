@@ -4,6 +4,7 @@
     margin: 0px;
     font-family: "RO Sans",Calibri,sans-serif;
     font-size: 19px;
+    text-decoration: none;
 }
 header div{
     width: 100px;
@@ -15,6 +16,17 @@ header div{
 header div img{
     vertical-align: middle;
     width: 325px;
+}
+input[type=checkbox] {
+    position:absolute;
+    top: 0px;
+    right: 0px;
+    width: 0%;
+    height: 0%;
+}
+#menuToggle *{
+    font-size:0px;
+    opacity: 0;
 }
 .menu-bar{
     background-color: #01689b;
@@ -30,11 +42,11 @@ header div img{
     font-size: 21px;
     padding-left: 20px;
 }
-.menu-bar div ul{
+.menu-bar :nth-child(2) ul{
     float:right;
     display: flex;
 }
-.menu-bar div ul li{
+.menu-bar :nth-child(2) ul li{
     margin-right:30px;
 }
 .buttona img, .buttona input{
@@ -52,11 +64,7 @@ header div img{
 .buttona img{
     width:48px;
 }
-nav *{
-    width: 0%;
-    height: 0%;
-    font-size: 0px;
-}
+
 section.contenta{
     height:350px;
     background-image: url("https://www.rijksoverheid.nl/binaries/large/content/gallery/rijksoverheid/attentie-afbeeldingen/onderwerpen/m/minimumloon/minimumloon-winkel.jpg");
@@ -305,6 +313,83 @@ section.contenta{
     header div img{
         width: 200px;
     }
+    #menuToggle *{
+        opacity: 1;
+    }
+    #menuToggle {
+        width: 100%;
+        position: absolute;
+        top: 195px;
+        left: -5px;
+    }
+
+    input[type=checkbox]{
+        top: 13.5%;
+        right: 5.75%;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        z-index: 1;
+        opacity: 0;
+    }
+    .hamburger{
+        position:absolute;
+        top: -97px;
+        right: 5.5%;
+    }
+    .hamburger span {
+        display: block;
+        width: 33px;
+        height: 4px;
+        opacity: 1;
+        margin-bottom: 5px;
+        background: white;
+        border-radius: 3px;
+        transform-origin: 4px 0px;
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.55s ease;
+    }
+    .hamburger span:last-child{
+        transform-origin: 0% 100%;
+    }
+    input:checked ~ #menuToggle .hamburger span {
+        transform: rotate(45deg) translate(-2px, -1px);
+    }
+    input:checked ~ #menuToggle .hamburger span:nth-child(2) {
+        opacity:0;
+        transform: rotate(0deg);
+    }
+    input:checked ~ #menuToggle .hamburger span:last-child {
+        transform: rotate(-45deg) translate(0, -1px);
+    } 
+    input:checked ~ div {
+        min-height: 195px;
+        max-width: 100%;
+    }
+    input:checked ~ #menuToggle .hamburger{
+        top: -33.666%;
+        opacity:1;
+        font-size: 50px;
+    }
+    input:checked ~ #menuToggle #menu {
+        display: block;
+        width: 100%;
+    }
+    input:checked ~ #menuToggle #menu a{
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid white;
+    }
+    input:checked ~ #menuToggle #menu a:first-child{
+        border-top: 1px solid white;
+    }
+    input:checked ~ #menuToggle #menu a li{
+        width: 100%;
+        height: 47px;
+        font-size: 18px;
+        color: white;
+        vertical-align: center;
+        padding-top: 12px;
+    }
     .menu-bar {
         min-height: 120px;
     }
@@ -332,8 +417,9 @@ section.contenta{
         left: calc(90% - 18px);
     }
     .lista{
+        position: relative;
         width: 90%;
-        top: 300px;
+        top: 25px;
     }
     .contentb div ul a{
         width: calc(100% - 20px);
@@ -344,6 +430,15 @@ section.contenta{
     .service, .column{
         width:calc(50% - 40px);
     }
-    
-    
+}
+@media (max-width: 480px){
+    .contentc div ul a{
+        width: calc(100% - 20px);
+    }
+    .contentd div ul a{
+        width: calc(100% - 40px);
+    }
+    .svg1, .svg2{
+        width: calc(100% - 40px);
+    }
 }
