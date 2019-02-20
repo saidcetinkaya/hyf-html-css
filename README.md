@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -10,9 +10,11 @@
     <div>
       <h1>HTML/CSS</h1>
       <h2>Said CETINKAYA</h2>
-      <p>Here you can find my application assignment</p>
+      <p>Here you can find my assignments</p>
       <a href="https://saidcetinkaya.github.io/hyf-html-css/week0/" rel="nofollow">https://saidcetinkaya.github.io/hyf-html-css/week0/</a><br>
       <a href="https://saidcetinkaya.github.io/hyf-html-css/week1/">https://saidcetinkaya.github.io/hyf-html-css/week1/</a>
+      <a href="https://saidcetinkaya.github.io/hyf-html-css/week2/" rel="nofollow">https://saidcetinkaya.github.io/hyf-html-css/week2/</a><br>
+      <a href="https://saidcetinkaya.github.io/hyf-html-css/week3/">https://saidcetinkaya.github.io/hyf-html-css/week3/</a>
     </div>
   </body>
 </html>
